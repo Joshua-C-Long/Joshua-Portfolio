@@ -98,8 +98,8 @@ a {
 
 h1 {
   max-width: 800px;
-  font-size: clamp(2.8rem, 7vw, 5.5rem);
-  line-height: 1.05;
+  font-size: clamp(2.2rem, 5vw, 4rem);
+  line-height: 1.1;
 }
 
 h2 {
