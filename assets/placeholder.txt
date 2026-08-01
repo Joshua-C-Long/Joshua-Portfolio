@@ -1,0 +1,1 @@
+Portfolio assets will be stored in this folder.
