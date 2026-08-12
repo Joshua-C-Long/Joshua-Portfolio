@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#071b2e">
+  <meta name="description" content="Digital business card for Joshua Long, Junior Data Analyst in Jacksonville, Florida.">
+  <title>Joshua Long | Digital Business Card</title>
+  <link rel="stylesheet" href="card.css">
+</head>
+<body>
+  <main class="page-shell">
+    <section class="business-card" aria-labelledby="card-name">
+      <div class="topography" aria-hidden="true"></div>
+
+      <div class="card-content">
+        <header class="identity">
+          <div class="monogram" aria-hidden="true">JL</div>
+          <p class="eyebrow">Digital Business Card</p>
+          <h1 id="card-name">Joshua Long</h1>
+          <p class="role">Junior Data Analyst</p>
+          <p class="specialties">SQL <span>•</span> Excel <span>•</span> Power BI <span>•</span> Data Visualization</p>
+          <p class="location">Jacksonville, Florida</p>
+        </header>
+
+        <nav class="primary-actions" aria-label="Primary contact actions">
+          <a class="action action-primary" href="mailto:longj0317@hotmail.com">Email Joshua</a>
+          <a class="action" href="tel:+19043471778">Call</a>
+        </nav>
+
+        <div class="link-grid">
+          <a class="link-tile" href="index.html">
+            <span class="link-label">Portfolio</span>
+            <span class="link-note">View featured work</span>
+          </a>
+          <a class="link-tile" href="Joshua_Long%20(2).pdf" target="_blank" rel="noopener">
+            <span class="link-label">Résumé</span>
+            <span class="link-note">Open PDF</span>
+          </a>
+          <a class="link-tile" href="https://www.linkedin.com/in/joshua-long-9648a4407" target="_blank" rel="noopener">
+            <span class="link-label">LinkedIn</span>
+            <span class="link-note">Connect professionally</span>
+          </a>
+          <button class="link-tile share-tile" id="share-card" type="button">
+            <span class="link-label">Share Card</span>
+            <span class="link-note" id="share-status">Send this page</span>
+          </button>
+        </div>
+
+        <section class="qr-panel" aria-label="QR code">
+          <div class="qr-copy">
+            <p class="qr-title">Scan to connect</p>
+            <p>Open Joshua’s card on any phone.</p>
+          </div>
+          <img src="joshua-long-card-qr.png" alt="QR code linking to Joshua Long's digital business card" width="176" height="176">
+        </section>
+
+        <a class="save-contact" id="save-contact" href="#">Save Contact</a>
+      </div>
+    </section>
+    <p class="page-note">Turning data into meaningful insights.</p>
+  </main>
+  <script src="card.js"></script>
+</body>
+</html>
